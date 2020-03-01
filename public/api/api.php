@@ -1,7 +1,16 @@
 <?php
 include_once dirname(__FILE__,3)."/utils/autoloader.php";
 include_once dirname(__FILE__,3)."/config/config.php";
+
+$n = new netease();
 $t = new toolbox();
+
+switch($_REQUEST["action"]){
+	case "login":
+		login();
+		break;
+}
+
 $baseUrl = $t->config("neteaseAPI");
 function login(){
 	$t = new toolbox();

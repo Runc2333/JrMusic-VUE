@@ -6,7 +6,7 @@
 1.将本项目克隆至您的网站根目录。
 
 ```
-git clone https://github.com/Runc2333/JrMusic.git
+git clone https://github.com/Runc2333/JrMusic-VUE.git
 ```
 
 2.设置运行目录为`/public`
